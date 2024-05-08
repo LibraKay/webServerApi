@@ -1,0 +1,10 @@
+{
+  "mongodb": {
+    "IP": "192.168.123.240",
+    "port": 27017,
+    "username": "",
+    "password": "",
+    "database": "airtest",
+    "collection": "autotest"
+  }
+}
