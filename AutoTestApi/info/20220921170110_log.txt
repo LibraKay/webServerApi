@@ -1,0 +1,9 @@
+[2022-09-21 17:01:10][INFO] req_start_time:2022-09-21-17:01:10
+[2022-09-21 17:01:10][INFO] brand:vivo,model:V1824A,device:emulator-5554
+[2022-09-21 17:01:10][INFO] testinfo--testname:20220921170110, apkname:com.cis.jiangnan.huawei, apkaddr:CoconutCI/CIS_JiangNan/Huawei/JANA-Huawei_791/com.cis.jiangnan.huawei-HuaWei-2.1.0-86-Signed-2022_08_18_18_43_42-210_update_cis_framework_encrypted.apk, device:{'vivo': ['V1824A']}, device_list:['emulator-5554'], testcase:cis.pay.huawei, logdir:, extra:
+[2022-09-21 17:01:15][INFO] download apk:CoconutCI/CIS_JiangNan/Huawei/JANA-Huawei_791/com.cis.jiangnan.huawei-HuaWei-2.1.0-86-Signed-2022_08_18_18_43_42-210_update_cis_framework_encrypted.apk
+[2022-09-21 17:01:37][INFO] emulator-5554 apk install finished
+[2022-09-21 17:01:37][INFO] emulator-5554 install finished, result:True
+[2022-09-21 17:01:37][INFO] start running script
+[2022-09-21 17:01:50][INFO] testname:20220921170110 result: {'cis.pay.huawei': [{'device': 'emulator-5554', 'test_case_id': 'test1', 'result': 'failed', 'start_time': '1663750902.9537072', 'end_time': '1663750910.3541648'}]}
+[2022-09-21 17:01:50][INFO] req_end_time:2022-09-21-17:01:50

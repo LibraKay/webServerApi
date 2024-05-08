@@ -1,0 +1,10 @@
+[2022-09-21 17:00:01][INFO] req_start_time:2022-09-21-17:00:01
+[2022-09-21 17:00:01][INFO] brand:vivo,model:V1824A,device:emulator-5554
+[2022-09-21 17:00:01][INFO] testinfo--testname:20220921170001, apkname:com.cis.jiangnan.huawei, apkaddr:CoconutCI/CIS_JiangNan/Huawei/JANA-Huawei_791/com.cis.jiangnan.huawei-HuaWei-2.1.0-86-Signed-2022_08_18_18_43_42-210_update_cis_framework_encrypted.apk, device:{'vivo': ['V1824A']}, device_list:['emulator-5554'], testcase:cis.pay.huawei, logdir:, extra:
+[2022-09-21 17:00:02][ERROR] unexpected error:<class 'FileNotFoundError'>, traceback:Traceback (most recent call last):
+  File "F:\WorkSpace_Kay\Dev_Kay\webapiserver\AutoTestApi\autotest.py", line 29, in AutoCITest
+    sftp.get(testvibe.apkaddr, temp_apk)
+  File "E:\Workwork_Kay\venv\lib\site-packages\paramiko\sftp_client.py", line 810, in get
+    with open(localpath, "wb") as fl:
+FileNotFoundError: [Errno 2] No such file or directory: '/root/coconutqa/temps\\test.apk'
+

@@ -1,0 +1,11 @@
+{
+    "cis.pay.huawei": [
+        {
+            "device": "emulator-5554",
+            "test_case_id": "test1",
+            "result": "failed",
+            "start_time": "1663750983.2470577",
+            "end_time": "1663750990.6374867"
+        }
+    ]
+}
